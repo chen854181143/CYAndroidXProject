@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">CYAndroidXProject</string>
+    <string name="common_loading">加载中&#8230;</string>
+    <!-- 异常捕捉 -->
+    <string name="crash_error_hint">发生意外错误\n抱歉，给您带来不便</string>
+
+    <string name="crash_error_restart">重新启动</string>
+    <string name="crash_error_log">查看日志</string>
+
+    <string name="crash_error_details">错误详情</string>
+    <string name="crash_error_info">错误信息</string>
+    <string name="crash_copy_log">复制日志</string>
+    <string name="crash_close">关闭</string>
+
+    <!-- 主页 -->
+    <string name="home_exit_hint">再按一次退出</string>
+    <string name="home_nav_index">首页</string>
+    <string name="home_nav_found">发现</string>
+    <string name="home_nav_message">消息</string>
+    <string name="home_nav_me">我的</string>
+
+    <string name="fine_no_data">fine, no data.</string>
+    <string name="click_me_to_retry">click me to retry!</string>
+</resources>
