@@ -9,6 +9,7 @@ import com.chenyang.cyandroidxproject.aop.SingleClick;
 import com.chenyang.cyandroidxproject.common.MyFragment;
 import com.chenyang.cyandroidxproject.ui.activity.HomeActivity;
 import com.chenyang.cyandroidxproject.ui.activity.LoadSirStudy;
+import com.chenyang.cyandroidxproject.ui.activity.RecyclerviewStudyActivity;
 import com.hjq.toast.ToastUtils;
 
 import java.util.List;
@@ -34,7 +35,7 @@ public final class TestFragmentA extends MyFragment<HomeActivity> {
 
     @Override
     protected void initView() {
-        setOnClickListener(R.id.btn_one_click,R.id.btn_loadsir_study);
+        setOnClickListener(R.id.btn_one_click,R.id.btn_loadsir_study,R.id.btn_recyclerview_study);
     }
 
     @Override
@@ -57,6 +58,9 @@ public final class TestFragmentA extends MyFragment<HomeActivity> {
                 break;
             case R.id.btn_loadsir_study:
                 startActivity(LoadSirStudy.class);
+                break;
+            case R.id.btn_recyclerview_study:
+                startActivity(RecyclerviewStudyActivity.class);
                 break;
         }
     }

@@ -24,6 +24,8 @@
         <!--<item name="android:windowSoftInputMode">stateHidden</item>-->
         <!-- 关闭 RecyclerView ScrollView ViewPager 水波纹效果 -->
         <item name="android:overScrollMode">never</item>
+        <!-- 配置recyclerview的分割线-->
+        <item name="android:listDivider">@drawable/divider_bg</item>
     </style>
     <!-- 默认圆角按钮样式 -->
     <style name="ButtonStyle" parent="Widget.AppCompat.Button.Borderless">
